@@ -1,0 +1,27 @@
+# Node modules (reinstalled in Docker)
+node_modules
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Build output (optional, if you build inside Docker)
+dist
+build
+
+# Environment files (you pass secrets via Docker secrets or ENV variables)
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# Coverage reports
+coverage/
