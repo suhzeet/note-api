@@ -6,7 +6,7 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-console.log("MONGO_URI:", process.env.MONGODB_URI);
+// console.log("MONGO_URI:", process.env.MONGODB_URI);
 
 const MONGODB_URI = process.env.MONGODB_URI;
 const PORT = process.env.PORT;
